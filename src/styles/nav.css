@@ -39,8 +39,8 @@ ul{
 
 .skull{
     background-image: url("../img/sailor_skull.png");
-    width: 32px;
-    height: 32px;
+    width: 31px;
+    height: 31px;
     cursor: pointer;
     position: fixed;
     top: 20px;
@@ -118,6 +118,7 @@ ul{
     color: #5e5e5e;
     font-weight: 700;
     margin: 0 0 40px 0;
+    width: 70%;
 }
 
 .projects__link:hover{
@@ -152,4 +153,5 @@ ul{
     color: #fff;
     font-weight: 700;
     margin: 0 0 40px 0;
+    width: 70%;
 }

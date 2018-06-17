@@ -1,0 +1,51 @@
+.overlay{
+    height: 100%;
+    padding: 10px 0 0 0;
+}
+
+.overlay:hover{
+    height: 100%;
+}
+
+.overlay:hover .overlay__profile{
+    opacity: 1;
+}
+
+.overlay:hover .overlay__title{
+    opacity: 1;
+}
+
+.overlay:hover .overlay__stack{
+    opacity: 1;
+}
+
+.overlay__profile{
+    font: 16px Play;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 30px 0 30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay__title{
+    font: 70px Play;
+    color: #fff;
+    margin: 30px 30px 0 30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+
+.overlay__stack{
+    font: 16px Play;
+    color: #fff;
+    margin: 20px 30px 0 30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay__link{
+    display: block;
+    height: 100%;
+}

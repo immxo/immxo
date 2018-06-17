@@ -1,0 +1,16 @@
+.hello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.hello__title{
+    font: 50px Play;
+    font-weight: 700;
+}
+
+.hello__text{
+    font: 30px Play;
+}

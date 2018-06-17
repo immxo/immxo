@@ -1,0 +1,15 @@
+.site-intarcio{
+    background: url("../img/intarcioBG.png");
+    height: 550px;
+    width: 455px;
+    padding: 20px 20px 30px 20px;
+    transition: opacity 0.5s;
+}
+
+.overlay-intarcio{
+    transition: background-color 0.8s;
+}
+
+.overlay-intarcio:hover{
+    background: #639fa9;
+}

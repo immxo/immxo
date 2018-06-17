@@ -5,7 +5,23 @@ class Nav extends Component {
 
     state = {
         projectsBg: '#000',
-        toggleMenu: false
+        toggleMenu: false,
+        rotate: 'rotate(0deg)'
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll.bind(this));
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll.bind(this));
+    }
+
+    handleScroll() {
+        if(window.pageYOffset > 0){
+            let rotateStr = 'rotate('+window.pageYOffset/10+'deg)';
+            this.setState({rotate: rotateStr});
+        }
     }
 
     toggleMenu(){
@@ -16,10 +32,12 @@ class Nav extends Component {
         this.setState({projectsBg: color});
     }
 
+
     render() {
         return (
             <div>
-                <div className={this.state.toggleMenu ? 'skullOpen' : 'skull'} onClick={this.toggleMenu.bind(this)}></div>
+                <div className={this.state.toggleMenu ? 'skullOpen' : 'skull'} onClick={this.toggleMenu.bind(this)}
+                     style={{transform: this.state.rotate}}></div>
                 <nav className={this.state.toggleMenu ? 'nav navOpen' : 'nav'}>
                     <div className='projects' style={{backgroundColor: this.state.projectsBg, transition: 'background-color 0.4s'}}>
                         <div className="projects__container">
@@ -27,14 +45,14 @@ class Nav extends Component {
                             <h1 className="projects__title">Проекты</h1>
                         </div>
                        <div className="projects__menu">
-                            <a href="" className="projects__link" onMouseOver={this.onHoverChangeBg.bind(this,'#FFFA6A')}
+                            <a href="" className="projects__link" onMouseOver={this.onHoverChangeBg.bind(this,'#639fa9')}
                                 onMouseOut={this.onHoverChangeBg.bind(this, '#000')}>Intarcio</a>
                             <a href="" className="projects__link" onMouseOver={this.onHoverChangeBg.bind(this,'#ff9600')}
                                onMouseOut={this.onHoverChangeBg.bind(this, '#000')}>This is fine</a>
+                            <a href="" className="projects__link" onMouseOver={this.onHoverChangeBg.bind(this,'#f2464f')}
+                               onMouseOut={this.onHoverChangeBg.bind(this, '#000')}>Agents</a>
                             <a href="" className="projects__link" onMouseOver={this.onHoverChangeBg.bind(this,'#0085c5')}
                                onMouseOut={this.onHoverChangeBg.bind(this, '#000')}>Hotels</a>
-                            <a href="" className="projects__link" onMouseOver={this.onHoverChangeBg.bind(this,'#009d81')}
-                               onMouseOut={this.onHoverChangeBg.bind(this, '#000')}>UpTraider</a>
                        </div>
                     </div>
                     <div className='me'>

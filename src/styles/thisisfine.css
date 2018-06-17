@@ -1,0 +1,16 @@
+.site-thisisfine{
+    background: url("../img/thisisfineBG.png");
+    height: 550px;
+    width: 455px;
+    padding: 20px 20px 30px 20px;
+    margin: 300px 0 0 0;
+    transition: opacity 0.5s;
+}
+
+.overlay-thisisfine{
+    transition: background-color 0.8s;
+}
+
+.overlay-thisisfine:hover{
+    background: #FF9600;
+}

@@ -1,0 +1,16 @@
+.site-hotels{
+    background: url("../img/hotelsBG.png");
+    height: 550px;
+    width: 455px;
+    padding: 20px 20px 30px 20px;
+    margin: 200px 0 0 0;
+    transition: opacity 0.5s;
+}
+
+.overlay-hotels{
+    transition: background-color 0.8s;
+}
+
+.overlay-hotels:hover{
+    background: #0085c5;
+}
