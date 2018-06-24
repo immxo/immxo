@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+    background: #334A5E;
+}
+
+header{
+    padding: 30px 0 0 0;
+    color: #fff;
+}
+
+.logo{
+    background-image: url("../img/elama_logo.png");
+    width: 64px;
+    height: 64px;
+}
+
+.nav-link{
+    color: #fff !important;
+    font: 16px 'Open Sans' !important;
+    margin: 0 30px 0 0 !important;
+
+}
+
+.nav-link:hover , .starter__link:hover{
+    color: #00A9C3 !important;
+    text-decoration: none !important;
+}
+
+.btn{
+    border-radius: 30px;
+    background-color: #00A9C3;
+    border: 2px solid #009ab4;
+    width: 135px;
+    height: 40px;
+    font: 14px 'Open Sans';
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+}
+
+.starter{
+    margin: 80px 0 0 0;
+}
+
+.starter__img{
+    background-image: url("../img/starter_img.png");
+    width: 512px;
+    height: 512px;
+}
+
+.starter__title{
+    font: 40px 'Open Sans';
+    margin: 0 0 40px 0;
+}
+
+.starter__link{
+    color: #fff;
+    text-decoration: none;
+    font: 16px 'Open Sans';
+    margin: 0 0 0 30px;
+}
+
+.line{
+    margin: 0;
+    padding: 0;
+    background: rgba(255,255,255,0.3);
+}
+
+.company{
+    margin: 150px 0 120px 0;
+}
+
+.company__block{
+    padding: 40px 0 40px 0;
+    color: rgba(255,255,255,0.5);
+}
+
+.company__aetha{
+    font: 20px 'Rammetto One';
+    margin: -5px 40px 0 0;
+}
+
+.company__united{
+    font: 20px 'Roboto Condensed';
+    margin: 0 40px 0 0;
+}
+
+.company__cigna{
+    font: 20px 'Ubuntu';
+    margin: 0 40px 0 0;
+}
+
+.company__kemper{
+    font: 20px 'Roboto';
+    margin: 0 40px 0 0;
+}
+
+.howItWorks{
+    background: linear-gradient(175deg, #334A5E 49.8%, #395267 50%, #CACACB 50.2%, #ECECED 50.4%);
+}
+
+.howItWorks__title{
+    text-align: center;
+    color: #fff;
+    font: 28px 'Open Sans';
+    margin: 0 0 50px 0;
+}
+
+.howItWorks__blocks_bg{
+    background: #fff;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    margin: 0 0.9% 0 0.9%;
+    width: 298px;
+    padding: 0;
+    max-width: 31.5%;
+}
+
+.connect_img{
+    background-image: url("../img/connect.png");
+    width: 64px;
+    height: 64px;
+    margin: 40px auto;
+}
+
+.discover_img{
+    background-image: url("../img/discover.png");
+    width: 64px;
+    height: 64px;
+    margin: 40px auto;
+}
+
+.provide_img{
+    background-image: url("../img/provide.png");
+    width: 64px;
+    height: 64px;
+    margin: 40px auto;
+}
+
+.howItWorks__blocks_title{
+    font: 14px 'Open Sans';
+    color: #00A9C3;
+    text-align: center;
+    font-weight: 700;
+}
+
+.howItWorks__blocks_text{
+    margin: 20px 40px 50px 40px;
+    font: 12px 'Open Sans';
+    color: #b9b8bd;
+    text-align: center;
+    line-height: 25px;
+}
+
+.program{
+    background: #ECECED;
+    padding: 100px 0 0 0;
+}
+
+.program__title{
+    font: 28px 'Open Sans';
+    color: #000;
+}
+
+.program__text{
+    font: 12px 'Open Sans';
+    color: #b9b8bd;
+    margin: 20px 0 40px 0;
+}
+
+.program__block{
+    padding: 100px 100px 0 100px
+}
+
+.education__img{
+    background-image: url("../img/education.png");
+    width: 512px;
+    height: 512px;
+    margin: 0px auto;
+}
+
+.tool__img{
+    background-image: url("../img/tool.png");
+    width: 512px;
+    height: 512px;
+    margin: 0px auto;
+}
+
+.carrier__img{
+    background-image: url("../img/carrier.png");
+    width: 512px;
+    height: 512px;
+    margin: 0px auto;
+}
+
+.information{
+    background: linear-gradient(175deg, #ECECED 49.8%, #E3F3FE 50%, #DDEEF9 50.2%, #ddf0ff 50.4%);
+    padding: 400px 0 0 0;
+}
+
+.information__input{
+    border-radius: 30px;
+    width: 400px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #EBF3F9;
+
+}
+.information__input::placeholder{
+    padding-left: 30px;
+    font: 12px 'Open Sans';
+}
+
+.information__sign{
+    position: relative;
+    left: -90px;
+    vertical-align: middle;
+    font: 12px 'Open Sans';
+    color: #00A9C3;
+}
+
+.information__sign:hover{
+    color: #00A9C3;
+    text-decoration: none;
+}
+
+.information__block_sign{
+    margin: 0 0 0 70px;
+}
+
+footer{
+    background: linear-gradient(3deg, #334A5E 49.8%, #395267 50%, #DDEEF9 50.2%, #ddf0ff 50.4%);
+    padding: 350px 0 0 0;
+    margin: 0 0 50px 0;
+}
+
+.footer__logo{
+    margin: 0 auto 30px;
+}
+
+.footer_text{
+    text-align: center;
+    font: 10px 'Open Sans';
+    color:#fff;
+}

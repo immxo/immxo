@@ -24,6 +24,9 @@ class Intarcio extends Component {
         else {
             this.setState({opacity: 0, cursor: 'default'});
         }
+        if(window.pageYOffset > 2300){
+            this.setState({opacity: 0, cursor: 'default'});
+        }
     }
 
 
@@ -34,7 +37,7 @@ class Intarcio extends Component {
                     <p className="overlay__profile">Web develop/rework</p>
                     <p className="overlay__title">Hotels</p>
                     <p className="overlay__stack">Web design, Jquery, flex-box </p>
-                    <a className="overlay__link" href="" target="_blank"></a>
+                    <a className="overlay__link" href="http://immxo.com/hotels" target="_blank"></a>
                 </div>
             </div>
         )}

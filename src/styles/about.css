@@ -1,0 +1,20 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.about__title{
+    font: 50px Play;
+    font-weight: 700;
+}
+
+.about__text{
+    font: 30px Play;
+}
+
+.about__link{
+    font: 24px Play;
+}

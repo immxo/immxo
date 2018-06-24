@@ -14,3 +14,11 @@
 .overlay-thisisfine:hover{
     background: #FF9600;
 }
+
+@media screen and (max-width: 600px)  {
+    .site-thisisfine{
+        background: url("../img/thisisfineBG_mobile.png");
+        height: 316px;
+        width: 280px;
+    }
+}

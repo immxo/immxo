@@ -10,7 +10,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="sites">
+            <div className="sites" id="projects">
                 <div className="leftSites">
                     <Intarcio/>
                     <Agents/>

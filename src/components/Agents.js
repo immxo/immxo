@@ -24,6 +24,9 @@ class Agents extends Component {
         else {
             this.setState({opacity: 0, cursor: 'default'});
         }
+        if(window.pageYOffset > 2100){
+            this.setState({opacity: 0, cursor: 'default'});
+        }
     }
 
 
@@ -34,7 +37,7 @@ class Agents extends Component {
                     <p className="overlay__profile">Web develop</p>
                     <p className="overlay__title">Agents</p>
                     <p className="overlay__stack">Web design, bootstrap </p>
-                    <a className="overlay__link" href="#" target="_blank"></a>
+                    <a className="overlay__link" href="http://immxo.com/agents" target="_blank"></a>
                 </div>
             </div>
         )}

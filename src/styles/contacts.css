@@ -1,0 +1,75 @@
+/* press-start-2p-regular - cyrillic */
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/press-start-2p-v6-cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'),
+    url('../fonts/press-start-2p-v6-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/press-start-2p-v6-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/press-start-2p-v6-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/press-start-2p-v6-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/press-start-2p-v6-cyrillic-regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 400px 0 0 0;
+    transition: opacity 0.5s;
+}
+
+.contacts__title{
+    font: 50px Play;
+    font-weight: 700;
+    margin: 0 0 100px 0;
+}
+
+.contacts__input{
+    width: 50%;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000;
+    margin: 30px 0 0 0;
+    outline: none;
+    font: 30px Play;
+}
+
+.contacts__input::placeholder{
+    font: 30px Play;
+}
+
+.contacts__input:invalid {
+    box-shadow: none;
+}
+
+.hiddenInput{
+    cursor: default;
+    transition: opacity 0.5s;
+}
+
+.contacts__btn{
+    border: none;
+    font: 40px 'Press Start 2P';
+    background-color: #fff;
+    margin: 50px 0 0 0;
+}
+
+.contacts__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px)  {
+    .contacts__title{
+        text-align: center;
+    }
+
+}

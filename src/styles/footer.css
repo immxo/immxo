@@ -1,0 +1,23 @@
+.footer{
+    background-color: #000;
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0 0 0;
+}
+
+.footer__text{
+    font: 18px Play;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px)  {
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer__text{
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+}

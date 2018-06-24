@@ -63,6 +63,16 @@ ul{
     background-image: url("../img/sailor_skull_crack.png");
 }
 
+.menu__text{
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 60px;
+    z-index: 99;
+    font: 20px Play;
+    color: #000;
+}
+
 .navContainer-Black{
     background-color: #000;
 }
@@ -154,4 +164,10 @@ ul{
     font-weight: 700;
     margin: 0 0 40px 0;
     width: 70%;
+}
+
+@media screen and (max-width: 600px)  {
+    .me{
+        display: none;
+    }
 }
